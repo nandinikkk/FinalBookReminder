@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BookReminder</string>
+
+    <string name="gmail_id">"Enter Your GMAIL ID</string>
+    <string name="pwd">Enter Your Password</string>
+
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+
+
+    <string name="gmail_id_existing">Existing Email ID</string>
+    <string name="gmail_id_New">New Email ID</string>
+
+    <string name="home">Home</string>
+    <string name="Lending_book"> Lending a Book</string>
+    <string name="Returning_book">Returning a Book</string>
+    <string name="view_all_books"> View All Books</string>
+    <string name="update_id">Change User ID</string>
+
+
+
+    <string name="scan_code"> Scan</string>
+    <string name="Returning_book_this">Return</string>
+    <string name="book_name"> Enter Book Name</string>
+    <string name="lender_name">Enter Lender Name</string>
+    <string name="lender_email">Enter Email Address</string>
+
+    <string name="date_due"> Due Date</string>
+    <string name="date_taken">Date Taken</string>
+    <string name="send_reminder">Send Reminder</string>
+    <string name="cancel_reminder"> Cancel All Reminders</string>
+    <string name="frequency_week">Frequency of reminders after due date till a week</string>
+    <string name="frequency_after_week">Frequency of reminders after a week of due date</string>
+
+
+</resources>

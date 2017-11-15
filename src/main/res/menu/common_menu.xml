@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu5" android:alphabeticShortcut="e"
+        android:title="@string/home" android:orderInCategory="5"/>
+    <item android:id="@+id/menu1" android:alphabeticShortcut="a"
+        android:title="@string/Lending_book" android:orderInCategory="1" />
+    <item android:id="@+id/menu4" android:alphabeticShortcut="d"
+        android:title="@string/Returning_book" android:orderInCategory="4" />
+    <item android:id="@+id/menu2" android:alphabeticShortcut="b"
+        android:title="@string/view_all_books" android:orderInCategory="2"/>
+    <item android:id="@+id/menu3" android:alphabeticShortcut="c"
+        android:title="@string/update_id" android:orderInCategory="3"/>
+
+
+</menu>

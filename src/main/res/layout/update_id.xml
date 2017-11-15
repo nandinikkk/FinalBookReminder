@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/islandwater_banner1">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_update_1"
+        android:layout_marginTop="180dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="@string/gmail_id_existing"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/top_update_1"
+        android:id="@+id/idedit_update_1"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="264dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp"
+            android:id="@+id/email_existing"
+            android:layout_weight="0.73" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_update"
+        android:layout_marginTop="300dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="@string/gmail_id_New"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/top_update"
+        android:id="@+id/idedit_update"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="264dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp"
+            android:id="@+id/email_user_update"
+            android:layout_weight="0.73" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_update1"
+        android:layout_marginTop="400dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="@string/pwd"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/top_update"
+        android:id="@+id/idedit_update1"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="264dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorBlack"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textSize="15dp"
+            android:id="@+id/pwd_user_update"
+            android:layout_weight="0.73"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idedit_update"
+        android:layout_marginTop="110dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:onClick="Update_Id"
+            android:text="@string/update"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
